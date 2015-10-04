@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0C0AAF6125A97EAD0EDD5B63 /* libPods-photon-garage-door-opener.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E4298CEE46B80C0D920A0BC6 /* libPods-photon-garage-door-opener.a */; };
+		A473F7FB1BC164D000C24547 /* ParticleConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = A473F7FA1BC164D000C24547 /* ParticleConfiguration.swift */; settings = {ASSET_TAGS = (); }; };
+		A473F7FD1BC1677200C24547 /* keys.plist in Resources */ = {isa = PBXBuildFile; fileRef = A473F7FC1BC1677200C24547 /* keys.plist */; settings = {ASSET_TAGS = (); }; };
 		A48F50EA1BC154F70018F654 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A48F50E91BC154F70018F654 /* AppDelegate.swift */; };
 		A48F50EC1BC154F70018F654 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A48F50EB1BC154F70018F654 /* ViewController.swift */; };
 		A48F50EF1BC154F70018F654 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A48F50ED1BC154F70018F654 /* Main.storyboard */; };
@@ -26,6 +29,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A473F7FA1BC164D000C24547 /* ParticleConfiguration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParticleConfiguration.swift; sourceTree = "<group>"; };
+		A473F7FC1BC1677200C24547 /* keys.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = keys.plist; sourceTree = "<group>"; };
 		A48F50E61BC154F70018F654 /* photon-garage-door-opener.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "photon-garage-door-opener.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A48F50E91BC154F70018F654 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A48F50EB1BC154F70018F654 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -36,6 +41,10 @@
 		A48F50FA1BC154F70018F654 /* photon-garage-door-openerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "photon-garage-door-openerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A48F50FE1BC154F70018F654 /* photon_garage_door_openerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = photon_garage_door_openerTests.swift; sourceTree = "<group>"; };
 		A48F51001BC154F70018F654 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A48F510A1BC159000018F654 /* photon-garage-door-opener-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "photon-garage-door-opener-Bridging-Header.h"; sourceTree = "<group>"; };
+		B549F013B9FC097C5B863614 /* Pods-photon-garage-door-opener.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-photon-garage-door-opener.debug.xcconfig"; path = "Pods/Target Support Files/Pods-photon-garage-door-opener/Pods-photon-garage-door-opener.debug.xcconfig"; sourceTree = "<group>"; };
+		E4298CEE46B80C0D920A0BC6 /* libPods-photon-garage-door-opener.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-photon-garage-door-opener.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA4E60A9775D2E09630AE728 /* Pods-photon-garage-door-opener.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-photon-garage-door-opener.release.xcconfig"; path = "Pods/Target Support Files/Pods-photon-garage-door-opener/Pods-photon-garage-door-opener.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +52,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0C0AAF6125A97EAD0EDD5B63 /* libPods-photon-garage-door-opener.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,12 +66,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		558685F3A75E0737C04F453B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B549F013B9FC097C5B863614 /* Pods-photon-garage-door-opener.debug.xcconfig */,
+				FA4E60A9775D2E09630AE728 /* Pods-photon-garage-door-opener.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		A48F50DD1BC154F70018F654 = {
 			isa = PBXGroup;
 			children = (
+				A473F7FC1BC1677200C24547 /* keys.plist */,
 				A48F50E81BC154F70018F654 /* photon-garage-door-opener */,
 				A48F50FD1BC154F70018F654 /* photon-garage-door-openerTests */,
 				A48F50E71BC154F70018F654 /* Products */,
+				558685F3A75E0737C04F453B /* Pods */,
+				DADD37D1E12D9D2F99554FB5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -78,11 +100,13 @@
 			isa = PBXGroup;
 			children = (
 				A48F50E91BC154F70018F654 /* AppDelegate.swift */,
+				A473F7FA1BC164D000C24547 /* ParticleConfiguration.swift */,
 				A48F50EB1BC154F70018F654 /* ViewController.swift */,
 				A48F50ED1BC154F70018F654 /* Main.storyboard */,
 				A48F50F01BC154F70018F654 /* Assets.xcassets */,
 				A48F50F21BC154F70018F654 /* LaunchScreen.storyboard */,
 				A48F50F51BC154F70018F654 /* Info.plist */,
+				A48F510A1BC159000018F654 /* photon-garage-door-opener-Bridging-Header.h */,
 			);
 			path = "photon-garage-door-opener";
 			sourceTree = "<group>";
@@ -96,6 +120,14 @@
 			path = "photon-garage-door-openerTests";
 			sourceTree = "<group>";
 		};
+		DADD37D1E12D9D2F99554FB5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E4298CEE46B80C0D920A0BC6 /* libPods-photon-garage-door-opener.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -103,9 +135,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A48F51031BC154F70018F654 /* Build configuration list for PBXNativeTarget "photon-garage-door-opener" */;
 			buildPhases = (
+				B22613A7D1CB715670717A86 /* Check Pods Manifest.lock */,
 				A48F50E21BC154F70018F654 /* Sources */,
 				A48F50E31BC154F70018F654 /* Frameworks */,
 				A48F50E41BC154F70018F654 /* Resources */,
+				94B82B134C7A4F66D0C11C63 /* Embed Pods Frameworks */,
+				77B7E3B5CB6FEE9AA9C256E4 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -140,11 +175,13 @@
 		A48F50DE1BC154F70018F654 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0700;
 				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = "Jasper Meurs";
 				TargetAttributes = {
 					A48F50E51BC154F70018F654 = {
 						CreatedOnToolsVersion = 7.0.1;
+						DevelopmentTeam = UU2S34HNHH;
 					};
 					A48F50F91BC154F70018F654 = {
 						CreatedOnToolsVersion = 7.0.1;
@@ -176,6 +213,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A473F7FD1BC1677200C24547 /* keys.plist in Resources */,
 				A48F50F41BC154F70018F654 /* LaunchScreen.storyboard in Resources */,
 				A48F50F11BC154F70018F654 /* Assets.xcassets in Resources */,
 				A48F50EF1BC154F70018F654 /* Main.storyboard in Resources */,
@@ -191,12 +229,61 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		77B7E3B5CB6FEE9AA9C256E4 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-photon-garage-door-opener/Pods-photon-garage-door-opener-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		94B82B134C7A4F66D0C11C63 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-photon-garage-door-opener/Pods-photon-garage-door-opener-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B22613A7D1CB715670717A86 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		A48F50E21BC154F70018F654 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				A48F50EC1BC154F70018F654 /* ViewController.swift in Sources */,
+				A473F7FB1BC164D000C24547 /* ParticleConfiguration.swift in Sources */,
 				A48F50EA1BC154F70018F654 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -322,23 +409,36 @@
 		};
 		A48F51041BC154F70018F654 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B549F013B9FC097C5B863614 /* Pods-photon-garage-door-opener.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "photon-garage-door-opener/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.jaspermeurs.photon-garage-door-opener";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "photon-garage-door-opener/photon-garage-door-opener-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
 		A48F51051BC154F70018F654 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FA4E60A9775D2E09630AE728 /* Pods-photon-garage-door-opener.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "photon-garage-door-opener/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.jaspermeurs.photon-garage-door-opener";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "photon-garage-door-opener/photon-garage-door-opener-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -385,6 +485,7 @@
 				A48F51051BC154F70018F654 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A48F51061BC154F70018F654 /* Build configuration list for PBXNativeTarget "photon-garage-door-openerTests" */ = {
 			isa = XCConfigurationList;
@@ -393,6 +494,7 @@
 				A48F51081BC154F70018F654 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

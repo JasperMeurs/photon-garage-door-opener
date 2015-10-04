@@ -17,3 +17,6 @@ DerivedData
 *.xcuserstate
 
 .DS_STORE
+
+keys.plist
+ParticleConfiguration.swift
