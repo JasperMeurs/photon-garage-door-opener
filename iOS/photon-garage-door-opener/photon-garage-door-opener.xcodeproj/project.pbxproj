@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		0C0AAF6125A97EAD0EDD5B63 /* libPods-photon-garage-door-opener.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E4298CEE46B80C0D920A0BC6 /* libPods-photon-garage-door-opener.a */; };
 		A473F7FB1BC164D000C24547 /* ParticleConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = A473F7FA1BC164D000C24547 /* ParticleConfiguration.swift */; settings = {ASSET_TAGS = (); }; };
-		A473F7FD1BC1677200C24547 /* keys.plist in Resources */ = {isa = PBXBuildFile; fileRef = A473F7FC1BC1677200C24547 /* keys.plist */; settings = {ASSET_TAGS = (); }; };
 		A48F50EA1BC154F70018F654 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A48F50E91BC154F70018F654 /* AppDelegate.swift */; };
 		A48F50EC1BC154F70018F654 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A48F50EB1BC154F70018F654 /* ViewController.swift */; };
 		A48F50EF1BC154F70018F654 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A48F50ED1BC154F70018F654 /* Main.storyboard */; };
@@ -30,7 +29,6 @@
 
 /* Begin PBXFileReference section */
 		A473F7FA1BC164D000C24547 /* ParticleConfiguration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParticleConfiguration.swift; sourceTree = "<group>"; };
-		A473F7FC1BC1677200C24547 /* keys.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = keys.plist; sourceTree = "<group>"; };
 		A48F50E61BC154F70018F654 /* photon-garage-door-opener.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "photon-garage-door-opener.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A48F50E91BC154F70018F654 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A48F50EB1BC154F70018F654 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -78,7 +76,6 @@
 		A48F50DD1BC154F70018F654 = {
 			isa = PBXGroup;
 			children = (
-				A473F7FC1BC1677200C24547 /* keys.plist */,
 				A48F50E81BC154F70018F654 /* photon-garage-door-opener */,
 				A48F50FD1BC154F70018F654 /* photon-garage-door-openerTests */,
 				A48F50E71BC154F70018F654 /* Products */,
@@ -213,7 +210,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A473F7FD1BC1677200C24547 /* keys.plist in Resources */,
 				A48F50F41BC154F70018F654 /* LaunchScreen.storyboard in Resources */,
 				A48F50F11BC154F70018F654 /* Assets.xcassets in Resources */,
 				A48F50EF1BC154F70018F654 /* Main.storyboard in Resources */,
