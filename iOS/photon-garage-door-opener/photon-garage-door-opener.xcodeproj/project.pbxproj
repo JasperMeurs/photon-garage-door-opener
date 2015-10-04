@@ -1,0 +1,400 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A48F50EA1BC154F70018F654 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A48F50E91BC154F70018F654 /* AppDelegate.swift */; };
+		A48F50EC1BC154F70018F654 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A48F50EB1BC154F70018F654 /* ViewController.swift */; };
+		A48F50EF1BC154F70018F654 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A48F50ED1BC154F70018F654 /* Main.storyboard */; };
+		A48F50F11BC154F70018F654 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A48F50F01BC154F70018F654 /* Assets.xcassets */; };
+		A48F50F41BC154F70018F654 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A48F50F21BC154F70018F654 /* LaunchScreen.storyboard */; };
+		A48F50FF1BC154F70018F654 /* photon_garage_door_openerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A48F50FE1BC154F70018F654 /* photon_garage_door_openerTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A48F50FB1BC154F70018F654 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A48F50DE1BC154F70018F654 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A48F50E51BC154F70018F654;
+			remoteInfo = "photon-garage-door-opener";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A48F50E61BC154F70018F654 /* photon-garage-door-opener.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "photon-garage-door-opener.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A48F50E91BC154F70018F654 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A48F50EB1BC154F70018F654 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A48F50EE1BC154F70018F654 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A48F50F01BC154F70018F654 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A48F50F31BC154F70018F654 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A48F50F51BC154F70018F654 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A48F50FA1BC154F70018F654 /* photon-garage-door-openerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "photon-garage-door-openerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A48F50FE1BC154F70018F654 /* photon_garage_door_openerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = photon_garage_door_openerTests.swift; sourceTree = "<group>"; };
+		A48F51001BC154F70018F654 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A48F50E31BC154F70018F654 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A48F50F71BC154F70018F654 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A48F50DD1BC154F70018F654 = {
+			isa = PBXGroup;
+			children = (
+				A48F50E81BC154F70018F654 /* photon-garage-door-opener */,
+				A48F50FD1BC154F70018F654 /* photon-garage-door-openerTests */,
+				A48F50E71BC154F70018F654 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A48F50E71BC154F70018F654 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A48F50E61BC154F70018F654 /* photon-garage-door-opener.app */,
+				A48F50FA1BC154F70018F654 /* photon-garage-door-openerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A48F50E81BC154F70018F654 /* photon-garage-door-opener */ = {
+			isa = PBXGroup;
+			children = (
+				A48F50E91BC154F70018F654 /* AppDelegate.swift */,
+				A48F50EB1BC154F70018F654 /* ViewController.swift */,
+				A48F50ED1BC154F70018F654 /* Main.storyboard */,
+				A48F50F01BC154F70018F654 /* Assets.xcassets */,
+				A48F50F21BC154F70018F654 /* LaunchScreen.storyboard */,
+				A48F50F51BC154F70018F654 /* Info.plist */,
+			);
+			path = "photon-garage-door-opener";
+			sourceTree = "<group>";
+		};
+		A48F50FD1BC154F70018F654 /* photon-garage-door-openerTests */ = {
+			isa = PBXGroup;
+			children = (
+				A48F50FE1BC154F70018F654 /* photon_garage_door_openerTests.swift */,
+				A48F51001BC154F70018F654 /* Info.plist */,
+			);
+			path = "photon-garage-door-openerTests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A48F50E51BC154F70018F654 /* photon-garage-door-opener */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A48F51031BC154F70018F654 /* Build configuration list for PBXNativeTarget "photon-garage-door-opener" */;
+			buildPhases = (
+				A48F50E21BC154F70018F654 /* Sources */,
+				A48F50E31BC154F70018F654 /* Frameworks */,
+				A48F50E41BC154F70018F654 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "photon-garage-door-opener";
+			productName = "photon-garage-door-opener";
+			productReference = A48F50E61BC154F70018F654 /* photon-garage-door-opener.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A48F50F91BC154F70018F654 /* photon-garage-door-openerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A48F51061BC154F70018F654 /* Build configuration list for PBXNativeTarget "photon-garage-door-openerTests" */;
+			buildPhases = (
+				A48F50F61BC154F70018F654 /* Sources */,
+				A48F50F71BC154F70018F654 /* Frameworks */,
+				A48F50F81BC154F70018F654 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A48F50FC1BC154F70018F654 /* PBXTargetDependency */,
+			);
+			name = "photon-garage-door-openerTests";
+			productName = "photon-garage-door-openerTests";
+			productReference = A48F50FA1BC154F70018F654 /* photon-garage-door-openerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A48F50DE1BC154F70018F654 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Jasper Meurs";
+				TargetAttributes = {
+					A48F50E51BC154F70018F654 = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+					A48F50F91BC154F70018F654 = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = A48F50E51BC154F70018F654;
+					};
+				};
+			};
+			buildConfigurationList = A48F50E11BC154F70018F654 /* Build configuration list for PBXProject "photon-garage-door-opener" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A48F50DD1BC154F70018F654;
+			productRefGroup = A48F50E71BC154F70018F654 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A48F50E51BC154F70018F654 /* photon-garage-door-opener */,
+				A48F50F91BC154F70018F654 /* photon-garage-door-openerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A48F50E41BC154F70018F654 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A48F50F41BC154F70018F654 /* LaunchScreen.storyboard in Resources */,
+				A48F50F11BC154F70018F654 /* Assets.xcassets in Resources */,
+				A48F50EF1BC154F70018F654 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A48F50F81BC154F70018F654 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A48F50E21BC154F70018F654 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A48F50EC1BC154F70018F654 /* ViewController.swift in Sources */,
+				A48F50EA1BC154F70018F654 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A48F50F61BC154F70018F654 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A48F50FF1BC154F70018F654 /* photon_garage_door_openerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A48F50FC1BC154F70018F654 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A48F50E51BC154F70018F654 /* photon-garage-door-opener */;
+			targetProxy = A48F50FB1BC154F70018F654 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A48F50ED1BC154F70018F654 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A48F50EE1BC154F70018F654 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A48F50F21BC154F70018F654 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A48F50F31BC154F70018F654 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A48F51011BC154F70018F654 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A48F51021BC154F70018F654 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A48F51041BC154F70018F654 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "photon-garage-door-opener/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jaspermeurs.photon-garage-door-opener";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A48F51051BC154F70018F654 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "photon-garage-door-opener/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jaspermeurs.photon-garage-door-opener";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A48F51071BC154F70018F654 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "photon-garage-door-openerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jaspermeurs.photon-garage-door-openerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/photon-garage-door-opener.app/photon-garage-door-opener";
+			};
+			name = Debug;
+		};
+		A48F51081BC154F70018F654 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "photon-garage-door-openerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jaspermeurs.photon-garage-door-openerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/photon-garage-door-opener.app/photon-garage-door-opener";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A48F50E11BC154F70018F654 /* Build configuration list for PBXProject "photon-garage-door-opener" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A48F51011BC154F70018F654 /* Debug */,
+				A48F51021BC154F70018F654 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A48F51031BC154F70018F654 /* Build configuration list for PBXNativeTarget "photon-garage-door-opener" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A48F51041BC154F70018F654 /* Debug */,
+				A48F51051BC154F70018F654 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A48F51061BC154F70018F654 /* Build configuration list for PBXNativeTarget "photon-garage-door-openerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A48F51071BC154F70018F654 /* Debug */,
+				A48F51081BC154F70018F654 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A48F50DE1BC154F70018F654 /* Project object */;
+}
