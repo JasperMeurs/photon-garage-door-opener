@@ -15,6 +15,7 @@
 		A48F50F11BC154F70018F654 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A48F50F01BC154F70018F654 /* Assets.xcassets */; };
 		A48F50F41BC154F70018F654 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A48F50F21BC154F70018F654 /* LaunchScreen.storyboard */; };
 		A48F50FF1BC154F70018F654 /* photon_garage_door_openerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A48F50FE1BC154F70018F654 /* photon_garage_door_openerTests.swift */; };
+		A4AF3EDD1BC4504E0066C982 /* HomeKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4AF3EDC1BC4504E0066C982 /* HomeKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		A48F50FE1BC154F70018F654 /* photon_garage_door_openerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = photon_garage_door_openerTests.swift; sourceTree = "<group>"; };
 		A48F51001BC154F70018F654 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A48F510A1BC159000018F654 /* photon-garage-door-opener-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "photon-garage-door-opener-Bridging-Header.h"; sourceTree = "<group>"; };
+		A4AF3EDB1BC4504E0066C982 /* photon-garage-door-opener.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "photon-garage-door-opener.entitlements"; sourceTree = "<group>"; };
+		A4AF3EDC1BC4504E0066C982 /* HomeKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HomeKit.framework; path = System/Library/Frameworks/HomeKit.framework; sourceTree = SDKROOT; };
 		B549F013B9FC097C5B863614 /* Pods-photon-garage-door-opener.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-photon-garage-door-opener.debug.xcconfig"; path = "Pods/Target Support Files/Pods-photon-garage-door-opener/Pods-photon-garage-door-opener.debug.xcconfig"; sourceTree = "<group>"; };
 		E4298CEE46B80C0D920A0BC6 /* libPods-photon-garage-door-opener.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-photon-garage-door-opener.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA4E60A9775D2E09630AE728 /* Pods-photon-garage-door-opener.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-photon-garage-door-opener.release.xcconfig"; path = "Pods/Target Support Files/Pods-photon-garage-door-opener/Pods-photon-garage-door-opener.release.xcconfig"; sourceTree = "<group>"; };
@@ -50,6 +53,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A4AF3EDD1BC4504E0066C982 /* HomeKit.framework in Frameworks */,
 				0C0AAF6125A97EAD0EDD5B63 /* libPods-photon-garage-door-opener.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -96,6 +100,7 @@
 		A48F50E81BC154F70018F654 /* photon-garage-door-opener */ = {
 			isa = PBXGroup;
 			children = (
+				A4AF3EDB1BC4504E0066C982 /* photon-garage-door-opener.entitlements */,
 				A48F50E91BC154F70018F654 /* AppDelegate.swift */,
 				A473F7FA1BC164D000C24547 /* ParticleConfiguration.swift */,
 				A48F50EB1BC154F70018F654 /* ViewController.swift */,
@@ -120,6 +125,7 @@
 		DADD37D1E12D9D2F99554FB5 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				A4AF3EDC1BC4504E0066C982 /* HomeKit.framework */,
 				E4298CEE46B80C0D920A0BC6 /* libPods-photon-garage-door-opener.a */,
 			);
 			name = Frameworks;
@@ -179,6 +185,11 @@
 					A48F50E51BC154F70018F654 = {
 						CreatedOnToolsVersion = 7.0.1;
 						DevelopmentTeam = UU2S34HNHH;
+						SystemCapabilities = {
+							com.apple.HomeKit = {
+								enabled = 1;
+							};
+						};
 					};
 					A48F50F91BC154F70018F654 = {
 						CreatedOnToolsVersion = 7.0.1;
@@ -409,6 +420,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = "photon-garage-door-opener/photon-garage-door-opener.entitlements";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "photon-garage-door-opener/Info.plist";
@@ -427,6 +439,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = "photon-garage-door-opener/photon-garage-door-opener.entitlements";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "photon-garage-door-opener/Info.plist";

@@ -62,6 +62,7 @@ class ViewController: UIViewController {
     }
     
     @IBAction func operateGarageDoorButtonPressed() {
+        print("Button pressed")
         if myPhoton != nil {
         let funcArgs = ["open"]
         myPhoton!.callFunction("operateDoor", withArguments: funcArgs) { (resultCode : NSNumber!, error : NSError!) -> Void in
